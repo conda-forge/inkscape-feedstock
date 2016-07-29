@@ -70,8 +70,8 @@ Terminology
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/inkscape-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/inkscape-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/inkscape-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/inkscape-feedstock)
+Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/922e8b413e290a1dc5d012134abc179dd5080153/conda_smithy/feedstock_content/ci_support/disabled.svg)
+OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/922e8b413e290a1dc5d012134abc179dd5080153/conda_smithy/feedstock_content/ci_support/disabled.svg)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/inkscape-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/inkscape-feedstock/branch/master)
 
 Current release info
