@@ -70,8 +70,8 @@ Terminology
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/inkscape-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/inkscape-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/inkscape-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/inkscape-feedstock)
+Linux: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/922e8b413e290a1dc5d012134abc179dd5080153/conda_smithy/feedstock_content/ci_support/disabled.svg)
+OSX: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/922e8b413e290a1dc5d012134abc179dd5080153/conda_smithy/feedstock_content/ci_support/disabled.svg)
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/inkscape-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/inkscape-feedstock/branch/master)
 
 Current release info
@@ -83,12 +83,17 @@ Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/inkscape/b
 Updating inkscape-feedstock
 ===========================
 
-If you would like to improve the inkscape recipe, please take the normal
-route of forking this repository and submitting a PR. Upon submission, your changes will
-be run on the appropriate platforms to give the reviewer an opportunity to confirm that the
-changes result in a successful build. Once merged, the recipe will be re-built and uploaded
-automatically to the conda-forge channel, whereupon they will be available for everybody to
-install and use.
+If you would like to improve the inkscape recipe or build a new
+package version, please fork this repository and submit a PR. Upon submission,
+your changes will be run on the appropriate platforms to give the reviewer an
+opportunity to confirm that the changes result in a successful build. Once
+merged, the recipe will be re-built and uploaded automatically to the
+`conda-forge` channel, whereupon the built conda packages will be available for
+everybody to install and use from the `conda-forge` channel.
+Note that all branches in the conda-forge/inkscape-feedstock are
+immediately built and any created packages are uploaded, so PRs should be based
+on branches in forks and branches in the main repository should only be used to
+build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
