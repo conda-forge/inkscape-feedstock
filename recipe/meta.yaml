@@ -25,6 +25,7 @@ requirements:
     - intltool # [not win]
     - automake # [not win]
     - libtool # [not win]
+    - libexif # [not win]
   # run:
 
 
