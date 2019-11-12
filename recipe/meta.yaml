@@ -34,6 +34,7 @@ requirements:
     - gsl # [not win]
     - glib # [not win]
     - pkg-config # [not win]
+    - gtk2 # [not win]
   # run:
 
 
