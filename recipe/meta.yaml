@@ -22,6 +22,7 @@ requirements:
     - 7za # [win]
     - {{ compiler('c') }} # [not win]
     - {{ compiler('cxx') }} # [not win]
+    - cmake # [not win]
     - autoconf # [not win]
     - intltool # [not win]
     - automake # [not win]
