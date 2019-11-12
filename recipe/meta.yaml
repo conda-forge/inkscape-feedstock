@@ -34,6 +34,7 @@ about:
   home: https://inkscape.org
   license: GPL 2, LGPL 2
   summary: vector graphics editor (repackaged)
+  license_file: COPYING
 
 extra:
   recipe-maintainers:
