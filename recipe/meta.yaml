@@ -28,6 +28,11 @@ requirements:
     - automake # [not win]
     - libtool # [not win]
     - libexif # [not win]
+    - pango # [not win]
+    - cairo # [not win]
+    - fontconfig # [not win]
+    - gsl # [not win]
+    - glib # [not win]
   # run:
 
 
