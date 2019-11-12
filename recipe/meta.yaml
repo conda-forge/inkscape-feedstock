@@ -33,6 +33,7 @@ requirements:
     - fontconfig # [not win]
     - gsl # [not win]
     - glib # [not win]
+    - pkg-config # [not win]
   # run:
 
 
