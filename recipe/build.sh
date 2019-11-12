@@ -5,3 +5,5 @@ cmake -DCMAKE_INSTALL_PREFIX:PATH="$PREFIX" \
       -DCMAKE_BUILD_TYPE:STRING=Release \
       ..
 make
+make check
+make install
