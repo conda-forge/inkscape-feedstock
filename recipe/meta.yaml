@@ -23,6 +23,7 @@ requirements:
     - autoconf # [not win]
     - intltool # [not win]
     - automake # [not win]
+    - libtool # [not win]
   # run:
 
 
