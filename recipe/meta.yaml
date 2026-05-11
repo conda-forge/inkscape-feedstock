@@ -4,20 +4,40 @@ package:
   name: inkscape
   version: {{ version }}
 
-source:  # [win]
+source:
   fn: Inkscape-{{ version }}-1.7z  # [win]
   url: https://inkscape.org/en/gallery/item/3938/Inkscape-{{ version }}-1-win64.7z  # [win64]
   sha1: 724707f66aa48be0a5746d71da5bf328cb2745bf  # [win64]
   url: https://inkscape.org/en/gallery/item/3932/Inkscape-0.91-1-win32.7z  # [win32]
   sha1: 28250e737449df653a8cc853f1a4d8207183c4a4  # [win32]
+  url: https://inkscape.org/gallery/item/13330/inkscape-0.92.4_A6N0YOn.tar.bz2 # [not win]
+  fn: inkscape-0.92.4_A6N0YOn.tar.bz2 # [not win]
+  sha256: 57ec2da8177b36614a513e2822efd73af721e690f7ddc6bd0a5fbb1525b4515e # [not win]
 
 build:
-  skip: true  # [not win]
   number: 0
 
 requirements:
-  build:
-  - 7za
+  host:
+    - 7za # [win]
+    - {{ compiler('c') }} # [not win]
+    - {{ compiler('cxx') }} # [not win]
+    - cmake # [not win]
+    - autoconf # [not win]
+    - intltool # [not win]
+    - automake # [not win]
+    - libtool # [not win]
+    - libexif # [not win]
+    - pango # [not win]
+    - cairo # [not win]
+    - fontconfig # [not win]
+    - gsl # [not win]
+    - glib # [not win]
+    - pkg-config # [not win]
+    - gtk2 # [not win]
+    - lcms2 # [not win]
+  # run:
+
 
 test:
   commands:
@@ -27,8 +47,10 @@ about:
   home: https://inkscape.org
   license: GPL 2, LGPL 2
   summary: vector graphics editor (repackaged)
+  license_file: COPYING
 
 extra:
   recipe-maintainers:
     - janschulz
     - jschueller
+    - asmeurer
